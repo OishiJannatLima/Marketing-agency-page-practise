@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header{
+    background-color: rgb(106, 236, 193);
+    padding: 10px;
+    width: 1000px;
+    height: 600px;
+    margin: 10px;
+    margin-left: 200px;
+  }
+
+.text{
+    text-align: center;
+}
+.title{
+    font-size: 20px;
+}
+.p-text{
+    font-size: 18px;
+}
+.image img{
+    width: 40px;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 0;
+    width: 800px;
+    height: 12%;
+}
+
+.marcom{
+    font-size: 15px;
+    color: black;
+}
+.agency{
+    font-size: 12px;
+}
+.marcom-text{
+    padding: 3px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: url('search-icon.png') no-repeat center center;
+  }
+  
+  .search-input {
+    padding-left: 35px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: url('search-icon.png') no-repeat center center;
+  }
+  
+  .search-input {
+    padding-right: 35px;
+    padding: 5px;
+    height: 25px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .dot img{
+    width: 30px;
+    margin-top: 10px;
+  }
+
+  .bg-image img{
+    width: 200px;
+    margin-left: 130px;
+    padding: 5px;
+    position: absolute;
+  }
+  .profile-section{
+    display: flex;
+    margin-left: 50px;
+   /* border: 1px solid black;
+    background-color: rgb(2, 2, 29);
+    width: 800px;
+    margin-left: 20px;*/
+  }
+  .creative{
+    padding: 20px;
+    color: white;
+  }
+  .title-creative{
+    color: rgb(106, 236, 193);
+  }
+  .paragraph{
+    font-size: 12px;
+  }
+  .p{
+    margin-bottom: 25px;
+  }
+  .btn-button{
+    border: 2px solid white;
+    background-color: rgb(2, 2, 29);
+    color: white;
+    border-radius: 10px;
+    font-size: 13px;
+    height: 25px;
+    width: 90px;
+  }
+  
+.icons{
+  margin: 10px;
+  width: 30px;
+  margin-top: 25px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  color: blue;
+  background-color: white;
+}
+.border{
+  border: solid darkorange;
+  background-color: darkorange;
+  padding: 3px;
+  width: 80px;
+  margin-bottom: 20px;
+}
+.border-2{
+  border-left: 2px solid purple;
+  /*border-left-width: 10px;*/
+  padding: 20px;
+  
+}
+.main{
+  background-color: rgb(2, 2, 29);
+  width: 800px;
+  margin-left: 80px;
+}
+.circle{
+  border: 1px solid black;
+  background-color: rgb(106, 236, 193);
+  width: 220px;
+  height: 220px;
+  margin-left: 130px;
+  margin-top: 70px;
+  border-radius: 50%;
+}
+.icon-solid{
+  margin-left: 240px;
+  margin-top: 140px;
+  
+}
+.instagram{
+  border: 1px solid rgb(106, 236, 193);
+  width: 30px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background-color: rgb(106, 236, 193);
+}
+.facebok{
+  border: 1px solid rgb(106, 236, 193);
+  width: 30px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background-color: rgb(106, 236, 193);
+}
+.twitter{
+  border: 1px solid rgb(106, 236, 193);
+  width: 30px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background-color: rgb(106, 236, 193);
+}
+.user{
+  border: 1px solid rgb(106, 236, 193);
+  width: 30px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background-color: rgb(106, 236, 193);
+}
+
+.border-3{
+  border: 4px solid rgb(106, 236, 193);
+  width: 100px;
+  height: 100px;
+  margin-left: 260px;
+  border-radius: 50%;
+  position: absolute;
+  border-right: none;
+  padding: 10px;
+
+}
+.border-text{
+  margin-left: 10px;
+  text-align: center;
+
+}
+.border-4{
+  border: 1px solid rgb(106, 236, 193);
+  margin-top: 80px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(106, 236, 193);
+  margin-left: 30px;
+}
+.border-5{
+  border: 5px solid purple;
+  margin-top: 50px;
+  margin-right: 90px;
+  width: 60px;
+  height: 90px;
+  border-bottom: none;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.border-6{
+  border: 5px solid darkorange;
+  width: 60px;
+  height: 90px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-top: none;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+  
